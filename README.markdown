@@ -1,6 +1,6 @@
-# Game-of-life
+# game-of-life
 
-![Game-of-life](image/game-of-life.png)
+![game-of-life](image/game-of-life.png)
 
 ## Usage
 
