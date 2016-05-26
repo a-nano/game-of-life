@@ -1,8 +1,8 @@
 # Game-of-life
 
-## Usage
-
 ![Game-of-life](image/game-of-life.png)
+
+## Usage
 
 ### Start the game of life
 
