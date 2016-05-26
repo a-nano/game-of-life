@@ -93,7 +93,7 @@
 (defun next-status (x y)
   "Return next status (alive/dead) of a cell at (x y)."
   (let ((c (count-neighbor x y)))
-    (if (aref *board* (to-index x y))
+    (if (existp x y)
         (or (= c 2) (= c 3))
         (= c 3))))
 
