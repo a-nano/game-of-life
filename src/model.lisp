@@ -28,12 +28,12 @@
   t)
 
 (defun refresh-board ()
-  "Killing all cells"
+  "Kill all cells"
   (dotimes (i (* *x-range* *y-range*))
     (setf (aref *board* i) nil)))
 
 (defun in-board-p (x y)
-  "Points are in board or not."
+  "Point is in board or not."
   (and (<= 0 x) (< x *x-range*)
        (<= 0 y) (< y *y-range*)))
 
