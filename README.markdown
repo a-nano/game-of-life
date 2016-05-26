@@ -47,12 +47,12 @@
 
 ### Requirements
 
-* [SDL](https://www.libsdl.org/)
-
 ```common-lisp
 (push #P"path-to-game-of-life" asdf:*central-registry*)
 (ql:quickload :game-of-life)
 ```
+
+* [SDL](https://www.libsdl.org/)
 
 ## Author
 
