@@ -19,6 +19,11 @@
 * d     : Refresh board
 * r     : Invert the quarter of all cells' state.
 
+### Mouse operations
+
+* Left click : Birth a cell at mouse pointer
+* Right click: Kill a cell at mouse pointer
+
 ### Set a frame-rate (default is 10)
 
 ```common-lisp
