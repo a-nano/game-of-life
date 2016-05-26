@@ -1,0 +1,13 @@
+* Game-of-life 
+
+** Usage
+
+** Installation
+
+** Author
+
++ akeo_quick
+
+** Copyright
+
+Copyright (c) 2016 akeo_quick
