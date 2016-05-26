@@ -57,7 +57,7 @@
 
 ### Requirements
 
-* [SDL](https://www.libsdl.org/)
+* [SDL 1.2](https://www.libsdl.org/)
 
 ## Author
 
