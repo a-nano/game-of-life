@@ -23,7 +23,6 @@
   (setf *y-range* y-range)
   (setf *board*
         (make-array (* x-range y-range)
-                    :element-type 'boolean
                     :initial-element nil))
   t)
 
@@ -90,7 +89,8 @@
 
 (defun update-board ()
   "Update board to next step."
-  (let ((next (copy-seq *board*)))
+  (let ((next (make-array (* *x-range* *y-range*)
+                          :initial-element nil)))
     (dotimes (x *x-range*)
       (dotimes (y *y-range*)
         (setf (aref next (to-index x y))
